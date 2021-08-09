@@ -9,7 +9,7 @@ Addon for Mighty SEO plugin for more advanced SEO settings.
 * Itemtype field
 
 ### Installation:
-1) Copy this repo to Your plugins directory
+1) Copy this repo to Your plugins directory (plugins/media1/mightyseoplus)
 2) run composer install
 3) run php artisan october:migrate
 
