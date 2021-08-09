@@ -19,10 +19,11 @@ class Plugin extends PluginBase
     public function pluginDetails()
     {
         return [
-            'name'        => 'MightySeoPlus',
-            'description' => 'No description provided yet...',
+            'name'        => 'Mighty Seo Plus',
+            'description' => 'Addon for Mighty SEO plugin for more advanced SEO settings.',
             'author'      => 'Media1',
-            'icon'        => 'icon-leaf'
+            'icon'        => 'icon-leaf',
+            'iconSvg'     => 'plugins/media1/mightyseoplus/assets/images/icon.svg'
         ];
     }
 
