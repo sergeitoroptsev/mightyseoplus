@@ -2,18 +2,18 @@
 
 Addon for Mighty SEO plugin for more advanced SEO settings.
 
-###Added:
+### Added:
 * Itemprop fields
 * OpenGraph fields
 * Twitter fields
 * Itemtype field
 
-###Installation:
+### Installation:
 1) Copy this repo to Your plugins directory
 2) run composer install
 3) run php artisan october:migrate
 
-###If you declare itemtype in Your html section, Your code might look like this:
+### If you declare itemtype in Your html section, Your code might look like this:
 ```
 <html
     lang="{{ activeLocale }}"
@@ -28,7 +28,7 @@ Addon for Mighty SEO plugin for more advanced SEO settings.
 >
 ```
 
-###Your custom seotoolbox component (seotoolbox/default.htm) might look like this:
+### Your custom seotoolbox component (seotoolbox/default.htm) might look like this:
 ```
 <title>{{ __SELF__.getTitle()|raw }}</title>
 <meta name="description" content="{{ __SELF__.get('seo_description')|raw }}">
