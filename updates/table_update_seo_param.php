@@ -27,6 +27,20 @@ class UpdateSeoParamsTable extends Migration
 
     public function down()
     {
-        Schema::dropIfExists('lovata_mighty_seo_param');
+        Schema::table('lovata_mighty_seo_params', function (Blueprint $table) {
+            $table->dropColumn([
+                'itemprop_name',
+                'itemprop_description',
+                'itemprop_image',
+                'og_title',
+                'og_description',
+                'og_image',
+                'og_type',
+                'twitter_title',
+                'twitter_description',
+                'twitter_image',
+                'itemtype'
+            ]);
+        });
     }
 }
